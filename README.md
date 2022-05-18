@@ -44,7 +44,7 @@ Nel pomeriggio, rifate ciò che abbiamo visto insieme stamattina stilando tutto 
 1. Creare il database da phpMyAdmin oppure da linea di comando o come volete
 1. Nel file .env aggiornare i dati del database (quelli che iniziano con DB_) e giacchè anche1. APP_NAME col nome della vostra app
 1. Aggiornare i file delle migrations
-1. Aggiornare il file DatabaseSeeder.php aggiungendo $this->call(ModelSeeder::class); per ogni1. model di cui abbiamo il seeder
+1. Aggiornare il file DatabaseSeeder.php aggiungendo $this->call(ModelSeeder::class); per ogni model di cui abbiamo il seeder
 1. Aggiornare i file dei seeders
     - agiungere use Faker\Generator as Faker;
     - modificare public function run() a public function run(Faker $faker)

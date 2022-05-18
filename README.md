@@ -54,7 +54,7 @@ Nel pomeriggio, rifate ciò che abbiamo visto insieme stamattina stilando tutto 
 ## Views
 
 1. Organizzare la cartella resources/views con:
-    - una sottocartella admin (con le sottocartelle per ciascun model risorsa) e spostare home- blade.php dentro admin
+    - una sottocartella admin (con le sottocartelle per ciascun model risorsa) e spostare home.blade.php dentro admin
     - una sottocartella guests
 
 ## Avviare l'ambiente locale

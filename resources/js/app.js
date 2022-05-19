@@ -34,6 +34,9 @@ const app = new Vue({
     render: h => h(ExampleComponent)
 });
 
+
+
+
 const btnSlugger = document.querySelector('#btn-slugger');
 if (btnSlugger) {
     btnSlugger.addEventListener('click', function() {
